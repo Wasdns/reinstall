@@ -30,9 +30,16 @@ filter.lfs.process=git-lfs filter-process
 filter.lfs.required=true
 ```
 
-git configuration:
+add git configurations:
 
 ```
 $ git config --global http.proxy 'socks5://127.0.0.1:1080' 
 $ git config --global https.proxy 'socks5://127.0.0.1:1080'
+```
+
+remove git configurations:
+
+```
+$ git config --global --unset http.proxy
+$ git config --global --unset https.proxy
 ```
