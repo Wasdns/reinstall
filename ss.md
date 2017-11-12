@@ -17,6 +17,19 @@ $ sudo apt-get update
 $ sudo apt-get install shadowsocks-qt5
 ```
 
+original git configurations(Mac OSX, Air):
+
+```
+credential.helper=osxkeychain
+user.name=Wasdns
+user.email=952693358@qq.com
+push.default=matching
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+```
+
 git configuration:
 
 ```
