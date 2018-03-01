@@ -1,4 +1,8 @@
-## Guide
+# reinstall
+
+ss -> bmv2 -> p4c -> latex
+
+## ss
 
 ss:
 
